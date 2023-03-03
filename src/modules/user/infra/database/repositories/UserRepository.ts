@@ -1,6 +1,6 @@
 import { User } from '@prisma/client';
 import prisma from '../../../../../prisma';
-import ICreateUserDTO from '../../../dtos/ICreateUseDTO';
+import ICreateUserDTO from '../../../dtos/ICreateUserDTO';
 import IUpdateUserDTO from '../../../dtos/IUpdateUserDTO';
 import IUserRepository from '../../../repositories/IUserRepository';
 

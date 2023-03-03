@@ -3,7 +3,7 @@ import path from 'path';
 import AppError from '../../../shared/errors/AppError';
 import IHashProvider from '../../../shared/providers/hashProvider/model/IHashProvider';
 import IMailProvider from '../../../shared/providers/MailProvider/model/IMailProvider';
-import ICreateUserDTO from '../dtos/ICreateUseDTO';
+import ICreateUserDTO from '../dtos/ICreateUserDTO';
 import IUserRepository from '../repositories/IUserRepository';
 
 export default class CreateUserService {
